@@ -1,0 +1,150 @@
+* {
+    font-family: "Montserrat", sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.coluna1 {
+    margin: 44px 0 144px 76px;
+}
+
+.linkes {
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 29px;
+    color: #989d9c;
+    cursor: pointer;
+    margin-right: 23px;
+
+
+
+}
+
+.botao1 {
+    background-color: #665ae1;
+    border-radius: 20.5px;
+    font-size: 24px;
+    color: white;
+    height: 41px;
+    width: 130px;
+    border: none;
+    cursor: pointer;
+}
+
+.imagem {
+    width: 568px;
+    height: 500px;
+    margin-left: 125px;
+    display: inline-block;
+}
+
+.texto {
+    display: inline-block;
+    margin-left: 86px;
+}
+
+h1 {
+    font-weight: 900;
+    font-size: 100px;
+    color: #515151;
+    list-style: 122px;
+    line-height: 121.9px;
+}
+
+h2 {
+    font-size: 58px;
+    font-weight: 500;
+    line-height: 70.7px;
+    color: #515151;
+
+}
+
+p {
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 29.26px;
+    color: #848484;
+    width: 515px;
+    margin-top: 32px;
+
+}
+
+.botao2 {
+    font-size: 28px;
+    font-weight: 700;
+    line-height: 34.13px;
+    margin-top: 45px;
+    width: 239px;
+    height: 64px;
+    top: -774px;
+    left: -2437px;
+    border-radius: 50px 50px 50px 50px;
+    background-color: chartreuse;
+    cursor: pointer;
+    border: none;
+    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+}
+
+@media screen and (max-width: 1300px) {
+    .coluna1 {
+        margin: 20px auto;
+        padding: 0;
+        display: block;
+        text-align: center;
+        
+    }
+    .linkes {
+        font-size: 14px;
+        margin: 5px;
+    }
+    .botao1 {
+        height: 30px;
+        width: auto;
+        font-size: 14px;
+        padding: 8px;
+        
+    }
+
+    .texto {
+        margin: 0;
+        display: block;
+    }
+
+    .imagem {
+        width: 90%;
+        height: auto;
+        padding: 10px;
+        margin: 70px auto 20px;
+        display: block;
+    }
+
+    h1 {
+        font-size: 50px;
+        line-height: 60.95px;
+        text-align: center;
+        display: block;
+        position: static;
+    }
+
+    h2 {
+        font-size: 30px;
+        line-height: 36.57px;
+        text-align: center;
+
+    }
+
+    p {
+        display: none;
+    }
+
+    .botao2 {
+       
+        font-size: 28px;
+        line-height: 34.13px;
+        text-align: center;
+        display: block;
+        margin: 15px auto;
+
+    }
+}
