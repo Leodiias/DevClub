@@ -3,4 +3,4 @@
 <br>
 <h2>Projeto criado com aulas do <a href="https://rodolfomori.com.br/devclub/">DevClub</a></h2>
 <br>
-<img src="">
+<img src="https://github.com/Leodiias/DevClub/blob/main/img/Responsive%20image.png?raw=true">
